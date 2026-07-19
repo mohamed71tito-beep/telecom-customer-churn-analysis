@@ -30,7 +30,7 @@ This project delivers a multi-faceted analytical approach to:
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](dashboard_screenshot.png)
+![Dashboard Preview](churn1.png)
 *(💡 Tip: Save your dashboard screenshot in the same GitHub repository repository and update this image name if needed so it displays perfectly!)*
 
 ---
