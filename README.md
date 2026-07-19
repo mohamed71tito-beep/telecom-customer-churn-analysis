@@ -34,16 +34,3 @@ This project delivers a multi-faceted analytical approach to:
 *(💡 Tip: Save your dashboard screenshot in the same GitHub repository repository and update this image name if needed so it displays perfectly!)*
 
 ---
-
-## ⚙️ How to Reproduce This Project
-
-### 1. Prerequisites
-Ensure you have the following installed:
-- Python 3.8+
-- Power BI Desktop
-
-### 2. Run the Data Pipeline
-Clone the repository and inspect the data cleaning/EDA script:
-```bash
-git clone [https://github.com/mohamed71tito-beep/Telecom-Customer-Churn-Analysis.git](https://github.com/mohamed71tito-beep/Telecom-Customer-Churn-Analysis.git)
-cd Telecom-Customer-Churn-Analysis
