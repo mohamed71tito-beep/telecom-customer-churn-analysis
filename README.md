@@ -18,16 +18,6 @@ Understanding why customers leave is critical for telecom sustainability. This p
 
 ---
 
-## 🎨 UI/UX Design & Color Palette Strategy
-To maximize professional readability and modern visual appeal, the dashboard avoids generic bright styles and deploys a custom **Dark-Teal Modern Theme**:
-* **Primary Dashboard Background:** `#022B3A` (Deep Slate Teal)
-* **Card & Visual Containers:** `#044353` (Muted Petrol Navy)
-* **Active Metric Highlights:** `#20B2AA` (Light Sea Green)
-* **Secondary Analytical Splits:** `#87CEEB` (Sky Blue)
-* **Text Hierarchy:** Pure White (`#FFFFFF`) for prominent core metrics, Muted Steel Blue (`#B0C4DE`) for axis categories and labels.
-* **Depth & Shadows (3D Effect):** Built using soft visual borders (`8px` container border radius) combined with native dark shadows (`60%` transparency) to construct structured high-depth interface elements.
-
----
 
 ## 🛠️ Repository Architecture
 ```bash
