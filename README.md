@@ -1,27 +1,49 @@
-# Telecom Customer Churn Insights & Interactive Analytics Dashboard
+# 📊 Telecom Customer Churn Insights & Interactive Analytics Dashboard
 
-An end-to-end data analytics project focused on identifying customer churn patterns, analyzing subscriber lifespans, and evaluating the impact of customer service interactions for a telecommunications provider. This project seamlessly combines **Python** for exploratory data analysis (EDA) and data cleansing with **Power BI** for executive-level business intelligence reporting.
-
----
-
-## 📊 Project Executive Summary & Dashboard Live Preview
-Understanding why customers leave is critical for telecom sustainability. This project aims to diagnose key pain points in customer accounts, explore correlation metrics between operational variables, and present them in a highly optimized interface.
-
-### 🖼️ Dashboard Preview
-<!-- عرض صورة الداشبورد مباشرة في واجهة المستودع -->
-![Telecom Customer Churn Dashboard](churn1.png)
-
-### 🎯 Key Performance Indicators (KPIs) Captured
-* **Total Churn Volume:** 3.33K customers transitioned out.
-* **Average Customer Service Calls:** 1.56 calls per account (a critical threshold metric discovered for loyalty prediction).
-* **Overall Churn Split:** 14.49% True Churn vs. 85.51% Retained.
+An end-to-end data analytics project engineered to diagnose subscriber retention behavior, uncover key pain points in customer support interactions, and provide executive-level business intelligence. This project seamlessly integrates **Python** for rigorous exploratory data analysis (EDA) and data engineering with **Power BI** for dynamic, high-performance visualization.
 
 ---
 
+## 🚀 Project Overview & Business Value
+In the highly competitive telecommunications sector, understanding why customers leave (*churn*) is fundamental to maximizing customer lifetime value (CLV) and ensuring long-term sustainability. 
 
-## 🛠️ Repository Architecture
+This project delivers a multi-faceted analytical approach to:
+- **Quantify Retention Risk:** Identifying patterns across operational and demographic variables.
+- **Support-Driven Diagnostics:** Correlating customer service call volume with churn inflection points.
+- **Strategic Optimization:** Equipping decision-makers with an interactive interface to deploy targeted retention campaigns.
+
+---
+
+## 🛠️ Tech Stack & Workflow
+- **Data Cleaning & EDA:** `Python` (`Pandas`, `NumPy`, `Matplotlib`, `Seaborn`)
+- **Business Intelligence & Dashboarding:** `Power BI Desktop` (DAX modeling, interactive filtering, and customized UI design).
+
+---
+
+## 📈 Key Dashboard Insights
+*Based on the comprehensive analysis of the telecom dataset:*
+1. **Critical Inflection Point:** There is a strong correlation between churn rates and customers reaching an average of **1.56 Customer Service Calls**, indicating a clear threshold where service friction drives attrition.
+2. **Geographic Concentrations:** Significant churn variances across different states, pointing toward localized infrastructure or pricing sensitivities.
+3. **Account Features:** Subscription structures—specifically the presence or absence of an International Plan—heavily influence a user's likelihood to churn.
+
+---
+
+## 🖼️ Dashboard Preview
+
+![Dashboard Preview](dashboard_screenshot.png)
+*(💡 Tip: Save your dashboard screenshot in the same GitHub repository repository and update this image name if needed so it displays perfectly!)*
+
+---
+
+## ⚙️ How to Reproduce This Project
+
+### 1. Prerequisites
+Ensure you have the following installed:
+- Python 3.8+
+- Power BI Desktop
+
+### 2. Run the Data Pipeline
+Clone the repository and inspect the data cleaning/EDA script:
 ```bash
-├── churn1.png                       # Dashboard Image Preview
-├── churn_prep_analysis.py           # Preprocessing & metric profiling script
-├── Telecom_Churn_Dashboard.pbix     # Interactive Power BI Dashboard source file
-└── README.md                        # Project documentation (You are here)
+git clone [https://github.com/mohamed71tito-beep/Telecom-Customer-Churn-Analysis.git](https://github.com/mohamed71tito-beep/Telecom-Customer-Churn-Analysis.git)
+cd Telecom-Customer-Churn-Analysis
